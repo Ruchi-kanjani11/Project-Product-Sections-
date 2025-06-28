@@ -61,7 +61,7 @@ img {
     justify-content: end;
 }
 
-/* supermarket */
+/* supermarket section start*/
 .supermarket {
     background-color: #e1dede;
 }
@@ -96,12 +96,14 @@ img {
     margin: 2px 0;
     padding: 6px;
 }
-
 .supermarket .content input::placeholder {
     font-size: 14px;
     color: #5e5d5d;
     font-weight: 500;
 }
+/* supermarket section end*/
+
+/* product cart section start */
 
 .products-cart {
     padding-top: 30px;
@@ -134,18 +136,40 @@ img {
     border-style: none;
     border: 1px solid #b9b7b7d5;
     margin-top: 30px;
-    padding-bottom: 20px;
+    height: 600px   ;
 }
 .cart .pro1,
 .cart .pro2,
 .cart .pro3,
 .cart .pro6,
-.cart .pro7,
 .cart .pro8,
 .cart .pro10
 {
     width:300px;
     padding: 30px;
+}
+.cart .pro4,
+.cart .pro5,
+.cart .pro9
+{
+    width: 280px;
+}
+.cart .pro1{
+    height: 300px;
+}
+.cart .pro7{
+    height: 260px;
+    width: 300px;
+}
+.cart .pro3{
+    padding-bottom: 60px;
+}
+.cart .pro2{
+    height: 385px;
+    width: 310px;   
+}
+.cart .pro9{
+    padding-bottom: 50px;
 }
 .cart p
 {
@@ -192,17 +216,13 @@ img {
     color: #fff;
     margin-top: 30px;
 }
-.cart .pro4,
-.cart .pro5,
-.cart .pro9
-{
-    width: 280px;
-}
+
+/* sale button */
 .cart .sale,
 .cart .sale-value
 {
     background-color: red;
-    color: #fff;
+    color: #fff;                            
     font-weight: 900;
     font-size: 15px;
     border-style: none;
@@ -215,3 +235,5 @@ img {
 .cart .sale-value{
     background-color: #069e06;
 }
+
+/* product cart section end */
