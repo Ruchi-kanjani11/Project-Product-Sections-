@@ -134,6 +134,7 @@ img {
     border-style: none;
     border: 1px solid #b9b7b7d5;
     margin-top: 30px;
+    padding-bottom: 20px;
 }
 .cart .pro1,
 .cart .pro2,
@@ -196,4 +197,21 @@ img {
 .cart .pro9
 {
     width: 280px;
+}
+.cart .sale,
+.cart .sale-value
+{
+    background-color: red;
+    color: #fff;
+    font-weight: 900;
+    font-size: 15px;
+    border-style: none;
+    border-radius: 5px;
+    outline: none;
+    margin: 10px 15px;
+    padding: 4px 8px;
+    display: block;
+}
+.cart .sale-value{
+    background-color: #069e06;
 }
